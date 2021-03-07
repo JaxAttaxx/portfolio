@@ -111,16 +111,16 @@
 
 					var href = $(this).attr('href');
 
-					event.preventDefault();
-					event.stopPropagation();
+					// event.preventDefault();
+					// event.stopPropagation();
 
 					// Hide.
 						$menu._hide();
 
 					// Redirect.
-						window.setTimeout(function() {
-							window.location.href = href;
-						}, 350);
+						// window.setTimeout(function() {
+						// 	window.location.href = href;
+						// }, 350);
 
 				});
 
